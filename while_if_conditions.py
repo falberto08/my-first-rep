@@ -28,5 +28,8 @@ while name in lista:
                                 if name == "Sousajr":
                                     print("Malhacao")
                                     break
+            else:
+                print("Thanks for coming")
+                break
 else:
     print(name.upper(), ' Is not a contact.')
